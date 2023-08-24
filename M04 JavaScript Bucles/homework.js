@@ -192,17 +192,20 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
+   let contador = 0
    do {
+      num += 5;
+      contador ++;
+      /*num = num + 5;
       num = num + 5;
       num = num + 5;
       num = num + 5;
       num = num + 5;
       num = num + 5;
       num = num + 5;
-      num = num + 5;
-      num = num + 5;
-      return(num);
-   } while (num <= 8);
+      num = num + 5;*/
+   } while (contador < 8);
+   return(num);
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
